@@ -1,0 +1,48 @@
+version: '2.1'
+services:
+  fpm:
+    build:
+      context: fpm
+      args:
+        uid: ${UID}
+    container_name: ${FPM_CONTAINER_NAME}
+    env_file: .env
+    depends_on:
+      - db
+    volumes:
+      - ../www:/var/www/html
+      - ${SSH_EXTERNAL_KEYS}:/home/user/.ssh
+      - ${HOST_STORAGE_PATH-../storage}:${CONTAINER_STORAGE_PATH-/var/www/storage}
+      - ./fpm/cron:/var/www/cron
+    tty: true
+    stdin_open: true
+
+  nginx:
+    build:
+      context: nginx
+      args:
+        uid: ${UID}
+    container_name: ${NGINX_CONTAINER_NAME}
+    depends_on:
+      - fpm
+    volumes:
+      - ../www:/var/www/html
+      - ./nginx/conf.d:/etc/nginx/conf.d
+    ports:
+      - "${NGINX_EXTERNAL_PORT}:80"
+
+  db:
+    build: ./db
+    container_name: ${DB_CONTAINER_NAME}
+    ports:
+      - "${DB_EXTERNAL_PORT}:5432"
+    volumes:
+      - ${DB_EXTERNAL_DATA}:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: ${DB_PASS}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_DB: ${DB_NAME}
+
+  redis:
+    image: "redis:alpine"
+    container_name:  ${REDIS_CONTAINER_NAME}

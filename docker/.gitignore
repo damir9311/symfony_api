@@ -1,0 +1,4 @@
+.env
+.env.autotest
+docker-compose-dev.yml
+docker-sync.yml
