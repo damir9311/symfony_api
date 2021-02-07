@@ -1,65 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b5e565d-5198-4694-888d-c6c61e613295" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony_api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/.env.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/db/100-initDb.autotest.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/db/200-addUser.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/db/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/fpm/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/fpm/entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/fpm/init.test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/fpm/php-fpm.d/zzz-docker.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/fpm/php.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/fpm/postInit.test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/fpm/www.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/nginx/conf.d/default.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/nginx/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/packages/api_platform.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/packages/nelmio_cors.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/packages/prod/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/packages/test/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/packages/test/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/packages/test/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/packages/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/preload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/routes/api_platform.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/routes/dev/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/Entity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/Repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/templates/base.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="9b5e565d-5198-4694-888d-c6c61e613295" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,8 +126,16 @@
       <option name="presentableId" value="Default" />
       <updated>1612500705995</updated>
       <workItem from="1612500707278" duration="4829000" />
-      <workItem from="1612539801649" duration="635000" />
+      <workItem from="1612539801649" duration="959000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit.">
+      <created>1612540597340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612540597340</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,10 +147,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="202" y="55" key="CommitChangelistDialog2" timestamp="1612540446206">
+    <state x="202" y="55" key="CommitChangelistDialog2" timestamp="1612540597124">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="202" y="55" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1612540446206" />
+    <state x="202" y="55" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1612540597124" />
     <state x="100" y="100" width="1336" height="760" key="DiffContextDialog" timestamp="1612540172852">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -209,6 +159,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1612533377374" />
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1612540604338">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1612540604338" />
     <state x="466" y="235" width="689" height="490" key="find.popup" timestamp="1612540240051">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
