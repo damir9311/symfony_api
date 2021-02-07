@@ -29,6 +29,7 @@
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/laminas/laminas-eventmanager" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/laminas/laminas-zendframework-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/nelmio/cors-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/phpdocumentor/reflection-common" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/phpdocumentor/reflection-docblock" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/phpdocumentor/type-resolver" />
@@ -57,6 +58,7 @@
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/http-client-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/http-foundation" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/maker-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/polyfill-intl-grapheme" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/polyfill-intl-normalizer" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/polyfill-mbstring" />
