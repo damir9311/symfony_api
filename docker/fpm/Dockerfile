@@ -63,12 +63,12 @@ RUN docker-php-ext-configure gd --with-freetype=/usr/include/ --with-jpeg=/usr/i
 # Set configuration for xdebug
 WORKDIR "/usr/local/etc/php/conf.d/"
 RUN echo "xdebug.remote_enable = 1" >> docker-php-ext-xdebug.ini \
- && echo "xdebug.remote_host = `/sbin/ip route|awk '/default/ { print $3 }'`" >> docker-php-ext-xdebug.ini \
+ && echo "xdebug.remote_host = host.docker.internal" >> docker-php-ext-xdebug.ini \
  && echo "xdebug.idekey = PHPSTORM" >> docker-php-ext-xdebug.ini \
  && echo "xdebug.remote_port = 9002" >> docker-php-ext-xdebug.ini \
  && echo "xdebug.remote_handler = dbgp" >> docker-php-ext-xdebug.ini \
  && echo "xdebug.remote_mode = req" >> docker-php-ext-xdebug.ini \
- && echo "xdebug.remote_connect_back = 1" >> docker-php-ext-xdebug.ini \
+ && echo "xdebug.remote_connect_back = off" >> docker-php-ext-xdebug.ini \
  && echo "xdebug.remote_autostart = 1" >> docker-php-ext-xdebug.ini
 
 # Install lib for time in tests

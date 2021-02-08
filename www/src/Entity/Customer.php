@@ -4,6 +4,7 @@ namespace App\Entity;
 
 use ApiPlatform\Core\Annotation\ApiResource;
 use App\Repository\CustomerRepository;
+use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -67,6 +68,39 @@ class Customer
      * @ORM\Column(type="datetime")
      */
     private $createdAt;
+
+    /**
+     * Customer constructor.
+     *
+     * @param string $firstName
+     * @param string $lastName
+     * @param string $email
+     * @param string $country
+     * @param string $username
+     * @param string $gender
+     * @param string $city
+     * @param string $phone
+     */
+    public function __construct(
+        string $firstName,
+        string $lastName,
+        string $email,
+        string $country,
+        string $username,
+        string $gender,
+        string $city,
+        string $phone
+    ) {
+        $this->firstName = $firstName;
+        $this->lastName = $lastName;
+        $this->email = $email;
+        $this->country = $country;
+        $this->username = $username;
+        $this->gender = $gender;
+        $this->city = $city;
+        $this->phone = $phone;
+        $this->createdAt = new DateTime();
+    }
 
     public function getId(): ?int
     {

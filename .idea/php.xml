@@ -84,7 +84,11 @@
       <path value="$PROJECT_DIR$/www/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/www/vendor/laminas/laminas-eventmanager" />
       <path value="$PROJECT_DIR$/www/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/www/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/www/vendor/phpunit/phpunit-8.5-0" />
+      <path value="$PROJECT_DIR$/www/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/www/vendor/symfony/http-client" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
 </project>

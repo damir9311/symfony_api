@@ -34,4 +34,5 @@ services:
         class: App\Service\CustomerService
         arguments:
             $userProvider:
-                '@App\Service\UserProvider\RandomUserFromAPIProvider'
+                '@App\Service\UserProvider\TestingUserProvider'
+            $allowedNumberOfAttempts: 4

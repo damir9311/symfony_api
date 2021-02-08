@@ -33,6 +33,8 @@
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/phpdocumentor/reflection-common" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/phpdocumentor/reflection-docblock" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/phpunit/phpunit-8.5-0" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/psr/cache" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/psr/event-dispatcher" />
@@ -55,10 +57,12 @@
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/finder" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/flex" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/framework-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/http-client" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/http-client-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/http-foundation" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/http-kernel" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/maker-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/phpunit-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/polyfill-intl-grapheme" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/polyfill-intl-normalizer" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/polyfill-mbstring" />
