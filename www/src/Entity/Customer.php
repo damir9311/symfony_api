@@ -9,9 +9,17 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ApiResource(
- *     collectionOperations={"get"},
- *     itemOperations={"get"},
- *     attributes={"pagination_enabled"=false}
+ *     collectionOperations={
+ *          "get"={
+ *              "output"=\App\Dto\CustomerListItemOutput::class
+ *          },
+ *      },
+ *     itemOperations={
+ *          "get"={
+ *              "output"=\App\Dto\CustomerItemOutput::class
+ *          }
+ *      },
+ *     attributes={"pagination_enabled"=false},
  * )
  * @ORM\Entity(repositoryClass=CustomerRepository::class)
  */
@@ -213,5 +221,10 @@ class Customer
         $this->createdAt = $createdAt;
 
         return $this;
+    }
+
+    public function getFullName(): string
+    {
+        return $this->firstName . ' ' . $this->lastName;
     }
 }

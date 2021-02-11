@@ -3,6 +3,7 @@
 namespace App\Service\UserProvider;
 
 use Symfony\Contracts\HttpClient\Exception\ClientExceptionInterface;
+use Symfony\Contracts\HttpClient\Exception\DecodingExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
@@ -49,7 +50,7 @@ class RandomUserFromAPIProvider implements UserProviderInterface
         // ...
 
         try {
-            $content = $response->getContent();
+            $content = $response->toArray();
         } catch (ClientExceptionInterface $e) {
             return  [];
         } catch (RedirectionExceptionInterface $e) {
@@ -58,14 +59,23 @@ class RandomUserFromAPIProvider implements UserProviderInterface
             return  [];
         } catch (TransportExceptionInterface $e) {
             return  [];
+        } catch (DecodingExceptionInterface $e) {
+            return  [];
         }
 
         $results = [];
         if ($content['results']) {
             foreach ($content['results'] as $userData) {
-                $results[] = [UserDTO::createFromArray([
-
-                ])];
+                $results[] = UserDTO::createFromArray([
+                    'firstName' => $userData['name']['first'],
+                    'lastName' => $userData['name']['last'],
+                    'email' => $userData['email'],
+                    'country' => $userData['location']['country'],
+                    'username' => $userData['login']['username'],
+                    'gender' => $userData['gender'],
+                    'city' => $userData['location']['city'],
+                    'phone' => $userData['phone']
+                ]);
             }
         }
 

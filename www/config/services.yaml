@@ -35,3 +35,7 @@ services:
         arguments:
             $userProvider:
                 '@App\Service\UserProvider\RandomUserFromAPIProvider'
+
+    App\DataTransformer\CustomerItemOutputDataTransformer: ~
+
+    App\DataTransformer\CustomerListItemOutputDataTransformer: ~
