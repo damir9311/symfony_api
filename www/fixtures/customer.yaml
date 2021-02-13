@@ -1,0 +1,11 @@
+App\Entity\Customer:
+  user_{1..5}:
+    __construct:
+      0: <firstName()>
+      1: <lastName()>
+      2: <email()>
+      3: Australia
+      4: <username()>
+      5: <randomElement([male, female])>
+      6: <randomElement([Sydney, Melbourne, Darwin])>
+      7: <shuffleString('0123456789')>

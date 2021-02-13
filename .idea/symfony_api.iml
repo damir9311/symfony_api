@@ -12,6 +12,7 @@
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/doctrine/cache" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/doctrine/collections" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/doctrine/data-fixtures" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/doctrine/dbal" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/doctrine/doctrine-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/doctrine/doctrine-migrations-bundle" />
@@ -23,11 +24,15 @@
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/doctrine/orm" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/doctrine/persistence" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/doctrine/sql-formatter" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/fakerphp/faker" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/fig/link-util" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/friendsofphp/proxy-manager-lts" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/hautelook/alice-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/laminas/laminas-code" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/laminas/laminas-eventmanager" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/laminas/laminas-zendframework-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/nelmio/alice" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/nelmio/cors-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/phpdocumentor/reflection-common" />
@@ -40,7 +45,12 @@
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/psr/event-dispatcher" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/psr/link" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/sebastian/recursion-context" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/asset" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/browser-kit" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/cache" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/cache-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/config" />
@@ -48,6 +58,7 @@
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/dependency-injection" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/deprecation-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/doctrine-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/dom-crawler" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/dotenv" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/error-handler" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/event-dispatcher" />
@@ -89,6 +100,7 @@
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/var-exporter" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/web-link" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/theofidry/alice-data-fixtures" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/twig/twig" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/webmozart/assert" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/willdurand/negotiation" />

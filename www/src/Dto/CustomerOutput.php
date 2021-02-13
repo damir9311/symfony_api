@@ -10,6 +10,11 @@ use App\Entity\Customer;
 abstract class CustomerOutput
 {
     /**
+     * @var int ID
+     */
+    public int $id;
+
+    /**
      * @var string User`s full name
      */
     public string $fullName;
@@ -33,6 +38,7 @@ abstract class CustomerOutput
     {
         $instance = new static();
 
+        $instance->id = $object->getId() ?? '';
         $instance->fullName = $object->getFullName();
         $instance->email = $object->getEmail() ?? '';
         $instance->country = $object->getCountry() ?? '';
