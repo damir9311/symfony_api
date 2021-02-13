@@ -41,4 +41,20 @@ This test task requires you to create an API that will import data from a 3rd pa
 - You may not secure your API
 - **Submit your code in a GitHub repository**
 
-Good luck!
+**How to run**
+
+- Copy docker/.env.dist to docker/.env
+- Edit docker/.env as you need
+- Run `docker-compose build`
+- Run `docker-compose up -d`
+- Run `docker-compose exec fpm composer install`
+- Run `docker-compose exec fpm bin/console doctrine:database:create`
+- Run `docker-compose exec fpm php bin/console doctrine:migrations:migrate`
+- Import customers from randomuser.me by `docker-compose exec fpm php bin/console app:customer:import`
+- Now you can use the API endpoints `GET /customers` and `GET /customers/{id}`
+
+**Run tests**
+
+- Run `docker-compose exec fpm bin/console doctrine:database:create --env=test`
+- Run `docker-compose exec fpm php bin/console doctrine:migrations:migrate --env=test`
+- Run tests `docker-compose exec fpm bin/phpunit`
